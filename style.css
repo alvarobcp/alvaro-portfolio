@@ -1,1 +1,208 @@
-/* Add styles here */
+body{
+    padding: 3% 10%;
+    font-family: "Geist Mono", monospace;
+    font-optical-sizing: auto;
+ 
+}
+
+h1{
+    font-size: 7rem;
+    font-family: "Geist", sans-serif;
+    font-optical-sizing: auto;
+    margin-bottom: 0px;
+}
+
+.subtitle{
+    font-size: 1.8rem;
+    margin-bottom: 50px;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+footer{
+    
+    position: absolute;
+    z-index: 10;
+    font-size: 1.1rem;
+    
+}
+
+.footer-container{
+    margin: 10% 0% 10% 0%;
+}
+
+.social-media-link{
+    text-decoration: underline;
+}
+
+.back {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background-image: 
+        linear-gradient(to right, #d1d5db 1px, transparent 1px),
+        linear-gradient(to bottom, #d1d5db 1px, transparent 1px);
+    background-size: 32px 32px;
+    -webkit-mask-image: radial-gradient(ellipse 80% 80% at 0% 0%, #000 50%, transparent 90%);
+    mask-image: radial-gradient(ellipse 80% 80% at 0% 0%, #000 50%, transparent 90%);
+    
+
+}
+
+.color-back {
+    position: fixed;
+    inset: 0;
+    z-index: 0;
+    background: radial-gradient(125% 125% at 50% 10%, #fff 40%, #4755699c 100%);
+}
+
+.content{
+    position: relative;
+    z-index: 10;
+}
+
+.a-text{
+    font-size: 2rem;
+    display: inline-flex;
+    align-items: center;
+    text-decoration:underline;
+    text-underline-offset: 2px;
+}
+
+.material-symbols-outlined{
+    font-size: 5rem;
+    text-decoration: none !important;
+    margin-left: 5px;
+}
+
+.git-icon{
+    font-size: 1.2rem;
+    
+}
+
+.open-icon{
+    color: #000000;
+    text-decoration: none;
+}
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    margin-top: 100px;
+}
+
+.description{
+    margin: 0px 0px 10px 0px;
+}
+
+.github-link{
+    color:rgb(39, 39, 39);
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-decoration:underline;
+    padding: 0px 5px;
+    margin-left: 10px;
+}
+
+.tags{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+li{
+    font-size: 1.2rem;
+}
+
+li::marker {
+    color: rgba(39, 39, 39, 0.212);
+  }
+
+.tag{
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.css{
+    background-color: #56DFCF;
+}
+
+.html{
+    background-color: #60B5FF;
+}
+
+.node{
+    background-color: #ffd35b;
+}
+
+.express{
+    background-color: #ffb039;
+}
+
+.javascript{
+    background-color: gold;
+}
+
+.react{
+    background-color: #6FDCE3;
+}
+
+.bdd{
+    background-color: #ff7777;
+}
+
+.auth0{
+    background-color: #f16992;
+}
+
+.api{
+    background-color: #baa9ff;
+}
+
+.ejs{
+    background-color: rgb(212, 118, 255);
+}
+
+.resume-button{
+    padding: 10px;
+    background-color: white;
+    border: solid black 2px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+.resume-button:hover{
+    background-color: rgb(230, 230, 230);
+}
+
+
+
+
+@media (max-width: 700px) {
+
+    h1{
+        font-size: 3rem;
+    }
+
+    .tag{
+        margin: 0px;
+    }
+
+    .tags{
+        margin: 20px 0px;
+    }
+}
+
+@media (max-width: 450px) {
+
+    .a-text{
+        font-size: 1.5rem;
+    }
+}
