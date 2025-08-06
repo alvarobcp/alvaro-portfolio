@@ -194,7 +194,29 @@ li::marker {
     background-color: rgb(230, 230, 230);
 }
 
+.about{
+    margin-top: 100px;
+}
+
+.about p{
+    font-size: 1.1rem;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+li{
+    margin-top: 10px;
+}
+
+
+
 /*
+
+.project-title{
+    color: #12205f;
+}
 .gradient-title{
     background: linear-gradient(135deg, #3b82f6, #06b6d4);
     -webkit-background-clip: text;
